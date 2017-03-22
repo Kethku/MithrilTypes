@@ -1,0 +1,25 @@
+{
+    "authors": "Leo Horie <https://github.com/lhorie>, Chris Bowdon <https://github.com/cbowdon>",
+    "definitionFilename": "index.d.ts",
+    "libraryDependencies": [],
+    "moduleDependencies": [],
+    "libraryMajorVersion": "0",
+    "libraryMinorVersion": "0",
+    "libraryName": "Mithril",
+    "typingsPackageName": "mithril",
+    "projectName": "http://lhorie.github.io/mithril/",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "types-2.0",
+    "kind": "Mixed",
+    "globals": [
+        "m"
+    ],
+    "declaredModules": [
+        "mithril"
+    ],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "294151f4d3bf895564473d622b9368384cf7b8acd58d3ee147ffa5573e57438a"
+}
