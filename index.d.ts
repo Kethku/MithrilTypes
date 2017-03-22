@@ -121,3 +121,9 @@ declare namespace Mithril {
         onbeforeupdate?: (vNode: V, old: boolean) => boolean;
     }
 }
+
+declare const m: Mithril.m;
+
+declare module "mithril" {
+    export = m;
+}
