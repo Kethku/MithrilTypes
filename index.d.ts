@@ -69,7 +69,7 @@ declare namespace Mithril {
 		<T extends Controller>(
 			component: Component<T>,
 			...args: any[]
-		): Component<T>;
+		): VirtualElement;
 
 		/**
 		* Creates a getter-setter function that wraps a Mithril promise. Useful
@@ -562,7 +562,7 @@ declare namespace Mithril {
 		*
 		* @see m.component
 		*/
-		controller: ControllerFunction<T> | ControllerConstructor<T>;
+		controller?: ControllerFunction<T> | ControllerConstructor<T>;
 
 		/**
 		* Creates a view out of virtual elements.
