@@ -445,7 +445,7 @@ declare namespace Mithril {
 		 *
 		 * @see m
 		 */
-		interface Attributes {
+		interface Attributes extends LifecycleMethods {
 				/**
 				 * The class name(s) for this virtual element, as a space-separated list.
 				 */
